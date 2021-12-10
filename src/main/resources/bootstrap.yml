@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: hayes-nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: hayeslin.xyz:8848
+        namespace: namespace-hayeslin-dev
+      config:
+        server-addr: hayeslin.xyz:8848
+        refresh-enabled: true
+        namespace: namespace-hayeslin-dev
+        file-extension: yml
